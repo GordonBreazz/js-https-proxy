@@ -1,0 +1,16 @@
+{
+  "name": "heroku-https-proxy",
+  "version": "1.0.0",
+  "description": "Simple HTTPS proxy on Heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },  
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
